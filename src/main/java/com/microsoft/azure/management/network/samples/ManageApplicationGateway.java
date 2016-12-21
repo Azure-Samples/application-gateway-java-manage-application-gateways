@@ -270,7 +270,7 @@ public final class ManageApplicationGateway {
                         .defineRequestRoutingRule("HTTPs-443-to-8080")
                             .fromPublicFrontend()
                             .fromFrontendHttpsPort(443)
-                            .withSslCertificateFromPfxFile(new File("myTest.pfx"))
+                            .withSslCertificateFromPfxFile(new File("myTest._pfx"))
                             .withSslCertificatePassword("Abc123")
                             .toBackendHttpPort(8080)
                             .toBackendIpAddress(ipAddresses[1][0])
