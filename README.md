@@ -4,7 +4,7 @@ platforms: java
 author: selvasingh
 ---
 
-#Getting Started with Network - Manage Application Gateway - in Java #
+## Getting Started with Network - Manage Application Gateway - in Java ##
 
 
   Azure network sample for managing application gateways.
@@ -21,7 +21,7 @@ author: selvasingh
      Backend server pool 1 settings = HTTP:8080
      Front end port 1 = HTTP:80
      Listener 1 = HTTP
-     Routing rule 1 = HTTP listener 1 => backend server pool 1
+     Routing rule 1 = HTTP listener 1 =&gt; backend server pool 1
      (round-robin load distribution)
  
      Routing Rule 2
@@ -30,10 +30,10 @@ author: selvasingh
      Backend server pool 2 settings = HTTP:8080
      Front end port 2 = HTTPS:443
      Listener 2 = HTTPS
-     Routing rule 2 = HTTPS listener 2 => backend server pool 2
+     Routing rule 2 = HTTPS listener 2 =&gt; backend server pool 2
      (round-robin load distribution)
  
-   - MODIFY the application gateway - re-configure the Routing Rule 1 for SSL offload &
+   - MODIFY the application gateway - re-configure the Routing Rule 1 for SSL offload and
      add a host name, www.contoso.com
  
      Change listener 1 from HTTP to HTTPS
@@ -48,7 +48,7 @@ author: selvasingh
      Backend server pool 1 settings = HTTP:8080
      Front end port 1 = HTTPS:1443
      Listener 1 = HTTPS
-     Routing rule 1 = HTTPS listener 1 => backend server pool 1
+     Routing rule 1 = HTTPS listener 1 =&gt; backend server pool 1
      (round-robin load distribution)
  
  
@@ -67,7 +67,7 @@ Set the environment variable `AZURE_AUTH_LOCATION` with the full path for an aut
 
 ## More information ##
 
-[http://azure.com/java] (http://azure.com/java)
+[http://azure.com/java](http://azure.com/java)
 
 If you don't have a Microsoft Azure subscription you can get a FREE trial account [here](http://go.microsoft.com/fwlink/?LinkId=330212)
 
