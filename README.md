@@ -8,7 +8,7 @@ description: "Azure network sample for managing application gateways."
 urlFragment: application-gateway-java-manage-application-gateways
 ---
 
-# Getting Started with Network - Manage Application Gateway - in Java #
+# Manage Application Gateways (Java)
 
 
   Azure network sample for managing application gateways.
