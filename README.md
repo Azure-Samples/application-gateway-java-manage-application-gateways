@@ -5,8 +5,8 @@ languages:
 products:
 - azure
 extensions:
-- services: virtual-network
-- platforms: java
+  services: virtual-network
+  platforms: java
 ---
 
 # Getting Started with Network - Manage Application Gateway - in Java #
